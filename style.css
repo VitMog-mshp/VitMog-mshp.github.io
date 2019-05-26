@@ -1,0 +1,414 @@
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url("fonts/ProximaNova-Regular.woff");
+}
+
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src: url("fonts/ProximaNova-Semibold.woff");
+}
+
+.header {
+	width: 100%;
+	padding: 20px 0;
+	display: flex;
+	font-family: 'ProximaNova-Regular';
+	justify-content: space-between;
+}
+
+.logo {
+	width: 150px;
+	height: 60px;
+	text-align: center;
+	box-sizing: border-box;
+	color: #fff;
+	font-family: 'Arial', sans-serif;
+	font-weight: 900;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: #ff6709;
+	border-radius: 2px;
+	transition: all .4s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo svg {
+	fill: #fff;
+	width: 33px;
+	height: 30px;
+	position: absolute;
+	z-index: 2;
+	transition: transform .4s ease
+}
+
+.menu {
+	background-color: #ff6709;
+	vertical-align: top;
+	width: 100%;
+	height: 62px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.menu__item {
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+	box-sizing: border-box;
+	border-top: #ff6709 solid 1px;
+	border-bottom: #ff6709 solid 1px;
+	transition-duration: 0.5s;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:link{
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.now {
+	font-weight: bold;
+    font-size: 18px;
+}
+
+.menu__item:hover {
+	border-top: #fff solid 3px;
+	border-bottom: #fff solid 3px;
+	padding: 5px 20px;
+
+
+}
+
+.RedmiNote7 {
+	background-color: #dbefff;
+	width: 50%;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.PowerBank {
+	background-color: #dbefff;
+	width: 50%;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.MiMax3 {
+	background-color: #dbefff;
+	width: 50%;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.product1 {
+	font-family: 'ProximaNova-Semibold';
+	display: block;
+	font-size: 30px;
+}
+
+.product2 {
+	font-family: 'ProximaNova-Regular';
+	display: block;
+	font-size: 20px;
+}
+
+.img_note7 {
+	background-image: url("pictures/49aae6fd7e823fd234c0babf64fe798a.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: bottom;
+	width: 50%;
+	height: 40vh;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: 'ProximaNova-Semibold';
+	font-size: 48px;
+	text-align: center;
+}
+
+.v1 {
+	display: flex;
+	border: 10px #ff6709 ridge;
+}
+
+.img_powerbank {
+	background-image: url("pictures/64599_big.jpg");
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: bottom;
+	width: 50%;
+	height: 40vh;
+	background-repeat: no-repeat;
+}
+
+.v2 {
+	display: flex;
+	margin-top: 50px;
+	border: 10px #ff6709 ridge;
+}
+
+.v3 {
+	display: flex;
+	margin-top: 50px;
+	border: 10px #ff6709 ridge;
+}
+
+.img_mimax {
+	background-image: url("pictures/28cbd9729abed7c687b776e2c4c4dd7a.png");
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: center;
+	width: 50%;
+	height: 40vh;
+	background-repeat: no-repeat;
+}
+
+.main{
+	display: flex;
+	width: 100%;
+	font-family: 'ProximaNova-Regular';
+	height: 500px;
+	background-image: url("pictures/main-bg.svg");
+    
+}
+
+.pocofone{
+	display: block;
+	width: 50%;
+	background-image: url("pictures/pocophone.png");
+	
+	-webkit-background-size: contain;
+	background-size:contain ;
+	background-repeat: no-repeat;
+}
+.main2{
+	display: block;
+	width: 50%;
+	height:500px;
+}
+.main3{
+	display: flex;
+    height: 250px;
+}
+.miband{
+	width: 50%;
+	background-image: url("pictures/Screen-Shot-2018-01-15-at-10.57.51-AM.png");
+	-webkit-background-size: contain;
+	background-size:contain ;
+	background-repeat: no-repeat;
+}
+.mia2{
+	width: 25%;
+    background-image: url("pictures/xiaomi-mi-a2-lite-preto.png");
+    -webkit-background-size: contain;
+	background-size:contain ;
+	background-repeat: no-repeat;
+    background-position: 0 10px;
+}
+.redmi6{
+	width: 50%;
+    background-image: url("pictures/Xiaomi-Redmi-Note-6-i-Redmi-6-Plus-2-1.png");
+     -webkit-background-size: contain;
+	background-size:contain ;
+	background-repeat: no-repeat;
+    height: 250px;
+}
+.footer{
+    margin-top: 50px;
+    background-color: #333;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.vk{
+    background-image: url("pictures/fon.png");
+    width: 120px;
+    height: 100px;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
+.twitter{
+    background-image: url("pictures/twitter.png");
+    -webkit-background-size: cover;
+    background-size:cover ;
+    width: 120px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.fb{
+    background-image: url("pictures/facebook.png");
+    -webkit-background-size: cover;
+    background-size:cover ;
+    width: 120px;
+    height: 100px;
+    background-position: 0 -10px;
+}
+.youtube{
+    background-image: url("pictures/youtube_PNG15.png");
+    -webkit-background-size: cover;
+    background-size:cover ;
+    width: 120px;
+    height: 120px;
+    
+       
+}
+
+.xm-about-head img {
+    display: inline-block;
+    margin-top: 104px;
+    margin-bottom: 34px;
+}
+img {
+    border: 0;
+}
+.xm-about-head {
+    background-color: #ff6700;
+    height: 497px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.big {
+    font-family: 'ProximaNova-Regular';
+    font-size: 16px;
+    line-height: 1.5;
+    color: #757575;
+    background-color: #f5f5f5;
+}
+.session01 {
+    margin: 58px auto 122px;
+}
+.container {
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div {
+    display:block;
+    align-items: center;
+    text-align: center;
+}
+.session02 {
+    padding-top: 87px;
+    height: 443px;
+    text-align: center;
+    color: #fff;
+    background: url("pictures/about-overview-img03.jpg") center no-repeat;
+    background-size: cover;
+}
+.session05 {
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+.session05 h3, .session05 h4 {
+    line-height: 36px;
+    margin: 140px 0 37px;
+    color: #616161;
+}
+h3 {
+    font-size: 30px;
+    font-family: 'ProximaNova-Regular';
+}
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+   
+}
+.session05 h4 {
+    margin: 53px 0 30px;
+    font-size: 30px;
+    font-family: 'ProximaNova-Regular';
+}
+.q1{
+     border-bottom: 2px solid #ff6700;
+}
+
+.xm-about-careers {
+    background: url(pictures/about-overview-img07.jpg) center no-repeat;
+    background-size: cover;
+    height: 530px;
+    text-align: center;
+    color: #fff;
+    margin-top: 175px;
+    align-items: center;
+    display: flex;
+        
+}
+
+.clearfix{
+    align-items: center;
+    text-align: center;
+}
+
+.head{
+    font-family:'ProximaNova-Regular' ;
+    color:#ff6700;
+    display: flex;
+    justify-content: space-around;
+    
+}
+main{
+    font-family:'ProximaNova-Regular' ;
+    margin: auto;   
+    
+}
+.line1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-height: 520px;
+    
+}
+.line2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-height: 520px;
+    
+}
+
+.product > img{
+   height: 330px;
+   width: 330px;
+    
+}
+
+.product{
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     padding: 25px;
+    width: 33%;
+    min-height: 520px;
+}
